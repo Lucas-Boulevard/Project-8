@@ -1,0 +1,43 @@
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: #d5e1ef;
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 0.5em;
+    margin: 40% auto;
+    padding-top: 1em;
+}
+
+.qr-code{
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 0.5em;
+    border: solid black 0.2em;
+}
+
+.title{
+    width: 80%;
+    margin: 6% auto;
+    font-size: large;
+    text-align: center;
+}
+
+.p-container{
+    width: 80%;
+    margin: 6% auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.39);
+    font-size: smaller;
+    padding-bottom: 3em;
+}
+
+@media only screen and (min-width: 1440px) {
+    .container{
+        width: 15%;
+        margin: 8% auto;
+    }
+}
